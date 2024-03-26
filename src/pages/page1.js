@@ -6,6 +6,9 @@ import { useState } from "react";
 
 function Page1() {
 
+    // useState is basically how to do variables in react.
+    // Here we have a variable buttonClicked and a function setButtonClicked
+    // that is used to update this variable.
     const [buttonClicked, setButtonClicked] = useState(false);
 
     return (

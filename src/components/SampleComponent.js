@@ -1,12 +1,11 @@
 import * as React from 'react';
 
-function Page2() {   
-    
+function SampleComponent({word}) {
     return (
         <div>
-           Page 2
+            {word}
         </div>
     )
 }
 
-export default Page2
+export default SampleComponent
